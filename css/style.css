@@ -167,3 +167,36 @@ i {
     font-size: 2rem;
     margin-top: 1rem;
 }
+
+/* Tariff Plans */
+.tariff-plans {
+   padding: 2rem;
+
+   h2 {
+    font-size: 2.25rem;
+    margin-bottom: 3rem;
+   }
+
+   .monthly-billing {
+    margin-right: 3rem;
+    }
+
+   h3 {
+    font-size: 0.7rem;
+    font-weight: normal;
+   }
+
+   .option {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    margin-right: 0.2rem;
+    vertical-align: middle;
+    }
+
+    .monthly {
+    border: 4px solid var(--buttons);
+    }
+}
