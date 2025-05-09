@@ -37,12 +37,19 @@ button {
     color: var(--light);
     padding: 0.4rem 0.8rem;
     border: none;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 3.5rem;
+    font-weight: 900;
+    margin-bottom: 2rem;
 }
 
 /* Utils */
 .container {
     max-width: 1200px;
-    width: 80%;
+    width: 65%;
     margin: 0 auto;
 }
 
@@ -52,7 +59,7 @@ button {
 
 .row {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     margin: 0 -1rem;
 }
 
@@ -106,17 +113,19 @@ button {
 
 /* Header */
 header {
+    font-size: 0.8rem;
     padding: 1.5rem;
     
     nav {
         display: flex;
         justify-content: space-between;
         align-items: center;
-
+        
         #logo {
             margin-right: 1rem;
+            height: 1.3rem;
         }
-        }
+    }
     
     ul {
         display: flex;
@@ -131,4 +140,30 @@ header {
 .nav-left,
 .nav-right {
     align-items: center;
+}
+
+/* Main */
+main {
+    background-color: var(--primary);
+    height: 33rem;
+    padding: 3rem;
+
+    p {
+        font-size: 0.9rem;
+        margin-bottom: 1.5rem;
+    }
+
+    button {
+        margin-bottom: 1.5rem;
+    }
+
+    img {
+        height: 20rem;
+        object-fit: cover;
+    }
+}
+
+i {
+    font-size: 2rem;
+    margin-top: 1rem;
 }
