@@ -30,7 +30,6 @@ ul {
 
 a {
     text-decoration: none;
-    color: #000;
 }
 
 button {
@@ -50,6 +49,12 @@ h1 {
 /* Utils */
 .container {
     max-width: 1200px;
+    width: 65%;
+    margin: 0 auto;
+}
+
+.container-sm {
+    max-width: 800px;
     width: 65%;
     margin: 0 auto;
 }
@@ -183,7 +188,7 @@ i {
 
 /* Tariff Plans */
 .tariff-plans {
-   padding: 2rem;
+   padding: 2rem 0;
 
    h2 {
     font-size: 2.25rem;
@@ -220,26 +225,65 @@ i {
     
     h4 {
         font-size: 0.9rem;
+        text-align: center;
         font-weight: normal;
         border: 1px solid #000;
-        padding: 0 5rem;
+        padding-bottom: 1rem;
     }
 
     h3 {
-
+        font-weight: 900;
+        margin-top: 0.5rem;
+    }
+    
+    li {
+        font-size: 0.8rem;
+        margin-bottom: 1rem;
     }
 
     i {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
         margin-right: 0.5rem;
     }
 
     .details {
         border: 1px solid #000;
-        padding: 1rem;
+        padding: 2rem;
+        height: 866.4px;
     }
-}
 
-hr {
-    width: 10%;
+    a {
+        text-decoration: underline;
+    }
+
+    p {
+        color: gray;
+    }
+
+    button {
+        margin-top: 1rem;
+        width: 100%;
+    }
+
+    .price {
+        font-size: 0.7rem;
+        font-weight: 900;
+    }
+
+    .highlights {
+        font-weight: 900;
+    }
+
+    .fa-check {
+        color: blue;
+    }
+
+    .fa-arrow-down {
+        color: #000;
+    }
+    
+    hr {
+        width: 20%;
+        margin: 2rem 0;
+    }
 }
