@@ -159,6 +159,10 @@ header {
 
         a {
             color: var(--dark);
+
+            &:hover {
+                border-bottom: 2px solid var(--dark);
+            }
         }
     }
 }
