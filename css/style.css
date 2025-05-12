@@ -1,3 +1,8 @@
+.debug {
+    border: 5px dashed red;
+}
+
+
 /* Reset */
 * {
   margin: 0;
@@ -320,3 +325,5 @@ i {
         height: 10rem;
     }
 }
+
+/* Footer */
