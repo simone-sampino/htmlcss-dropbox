@@ -249,7 +249,7 @@ i {
     .details {
         border: 1px solid #000;
         padding: 2rem;
-        height: 866.4px;
+        max-height: 866.4px;
     }
 
     a {
