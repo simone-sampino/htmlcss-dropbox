@@ -8,6 +8,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
 }
 
 html,
@@ -166,11 +168,11 @@ header {
     align-items: center;
 }
 
-/* Main */
-main {
+/* Hero */
+.hero {
     background-color: var(--primary);
-    height: 33rem;
-    padding: 3rem;
+    padding: 3rem 3rem 0;
+    margin-bottom: 8rem;
 
     p {
         font-size: 0.8rem;
@@ -182,8 +184,9 @@ main {
     }
 
     img {
-        height: 22rem;
+        max-height: 22rem;
         object-fit: cover;
+        margin-bottom: -4.5rem;
     }
 }
 
@@ -193,7 +196,7 @@ i {
 }
 
 /* Tariff Plans */
-.tariff-plans {
+#tariff-plans {
    padding: 2rem 0;
 
    h2 {
@@ -228,7 +231,6 @@ i {
 
 /* Card */
 .card {
-    /* height: 100%; */
     
     h4 {
         font-size: 0.9rem;
@@ -257,7 +259,7 @@ i {
     .details {
         border: 1px solid #000;
         padding: 2rem;
-        /* max-height: 866.4px; */
+        height: calc(100% - 50px); /* tolto px h4 */
     }
 
     a {
